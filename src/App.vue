@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
+    <router-link to="/">Evenements</router-link> |
     <router-link to="/about">A propos</router-link>
   </nav>
   <router-view />
@@ -28,3 +28,4 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 </style>
+<script setup lang="ts"></script>
